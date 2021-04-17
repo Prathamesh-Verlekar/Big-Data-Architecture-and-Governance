@@ -1,0 +1,315 @@
+{
+  "style": {
+    "node-color": "#4C8EDA",
+    "border-width": 2,
+    "border-color": "#2870c2",
+    "radius": 30,
+    "node-padding": 5,
+    "outside-position": "auto",
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#ffffff",
+    "caption-font-size": 15,
+    "caption-font-weight": "normal",
+    "label-position": "outside",
+    "label-color": "#ffffff",
+    "label-background-color": "#4C8EDA",
+    "label-border-color": "#4C8EDA",
+    "label-border-width": 0,
+    "label-font-size": 10,
+    "label-padding": 2,
+    "label-margin": 2,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 1,
+    "arrow-color": "#A5ABB6",
+    "margin-start": 0,
+    "margin-end": 0,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 15,
+    "type-padding": 2,
+    "property-position": "outside",
+    "property-color": "#000000",
+    "property-font-size": 15,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": -163.45472964958702,
+        "y": 97.14564180087541
+      },
+      "caption": "Case",
+      "labels": [],
+      "properties": {
+        "case_no": "A-16352-82106",
+        "year": "2016",
+        "month": "2",
+        "day": "26",
+        "salary": "58000"
+      },
+      "style": {
+        "radius": 30,
+        "caption-font-size": 15,
+        "property-font-size": 15
+      }
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": -371.0313578412145,
+        "y": 388.2328719821945
+      },
+      "caption": "Employer",
+      "labels": [],
+      "properties": {
+        "name": "TESLA MOTORSINC",
+        "address": "3500 DEER CREEK ROAD",
+        "city": "Palo Alto",
+        "state": "CA",
+        "postal code": "94304"
+      },
+      "style": {
+        "radius": 30,
+        "caption-font-size": 15,
+        "property-font-size": 15
+      }
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": -371.0313578412145,
+        "y": -193.9415883804437
+      },
+      "caption": "Decision",
+      "labels": [],
+      "properties": {
+        "status": "Approved"
+      },
+      "style": {
+        "radius": 30,
+        "caption-font-size": 15,
+        "property-font-size": 15
+      }
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": 171.83123140990506,
+        "y": 97.14564180087541
+      },
+      "caption": "Job",
+      "labels": [],
+      "properties": {
+        "title": "Software Engineer"
+      },
+      "style": {}
+    },
+    {
+      "id": "n4",
+      "position": {
+        "x": -163.45472964958702,
+        "y": 454.6646373046632
+      },
+      "caption": "City",
+      "labels": [],
+      "properties": {
+        "name": "Palo Alto"
+      },
+      "style": {}
+    },
+    {
+      "id": "n5",
+      "position": {
+        "x": 41.371759171845525,
+        "y": 388.2328719821945
+      },
+      "caption": "State",
+      "labels": [],
+      "properties": {
+        "name": "CA"
+      },
+      "style": {}
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": 148.1218415335759,
+        "y": -78.18225796348284
+      },
+      "caption": "SOC",
+      "labels": [],
+      "properties": {
+        "code": "15-1121",
+        "title": "Computer Systems Analysts"
+      },
+      "style": {}
+    },
+    {
+      "id": "n7",
+      "position": {
+        "x": 440.8048765184166,
+        "y": 97.14564180087541
+      },
+      "caption": "Sector",
+      "labels": [],
+      "properties": {
+        "name": "IT"
+      },
+      "style": {}
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": 41.371759171845525,
+        "y": -193.9415883804437
+      },
+      "caption": "Wage",
+      "labels": [],
+      "properties": {
+        "range": "30-60K",
+        "level": "level 1"
+      },
+      "style": {}
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": 148.1218415335759,
+        "y": 272.47354156523363
+      },
+      "caption": "Country",
+      "labels": [],
+      "properties": {
+        "name": "India",
+        "lat": "29.89",
+        "long": "39.76"
+      },
+      "style": {}
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": -163.45472964958702,
+        "y": -260.37335370291237
+      },
+      "caption": "Type",
+      "labels": [],
+      "properties": {
+        "name": "F1"
+      },
+      "style": {}
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n0",
+      "fromId": "n0",
+      "toId": "n1",
+      "type": "Sponsor",
+      "properties": {},
+      "style": {
+        "type-font-size": 15
+      }
+    },
+    {
+      "id": "n1",
+      "fromId": "n2",
+      "toId": "n0",
+      "type": "To",
+      "properties": {},
+      "style": {
+        "type-font-size": 15,
+        "property-font-size": 15
+      }
+    },
+    {
+      "id": "n2",
+      "fromId": "n0",
+      "toId": "n3",
+      "type": "For",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n5",
+      "fromId": "n4",
+      "toId": "n5",
+      "type": "Of",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n8",
+      "fromId": "n0",
+      "toId": "n6",
+      "type": "Occupation",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n9",
+      "fromId": "n3",
+      "toId": "n6",
+      "type": "Occupation",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n11",
+      "fromId": "n3",
+      "toId": "n7",
+      "type": "In",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n12",
+      "type": "Has",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n8"
+    },
+    {
+      "id": "n13",
+      "fromId": "n0",
+      "toId": "n5",
+      "type": "Location",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n14",
+      "fromId": "n0",
+      "toId": "n4",
+      "type": "Location",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n15",
+      "fromId": "n0",
+      "toId": "n9",
+      "type": "Citizenship",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n16",
+      "fromId": "n0",
+      "toId": "n10",
+      "type": "Is",
+      "properties": {},
+      "style": {}
+    }
+  ]
+}
