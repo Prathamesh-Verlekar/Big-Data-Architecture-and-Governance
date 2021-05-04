@@ -1,0 +1,18 @@
+.site-layout-content {
+  min-height: 600px;
+  padding: 24px;
+  background: #fff;
+}
+.logo {
+  float: left;
+  width: 45px;
+  height: 45px;
+  margin: 10px 24px 0px 20px;
+}
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+  [data-theme="dark"] .site-layout-content {
+    background: #141414;
+  }
